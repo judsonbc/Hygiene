@@ -4,7 +4,7 @@ browserWarningMessage('Please use Google Chrome, Apple Safari or another support
 if (navigator.userAgent.indexOf('iPad') !== -1) {
   var splashscreen = document.createElement('link');
   splashscreen.rel = 'apple-touch-startup-image';
-  splashscreen.href = '';
+  splashscreen.href = 'images/logo.jpg';
   document.getElementsByTagName('head')[0].appendChild(splashscreen);
 }
 

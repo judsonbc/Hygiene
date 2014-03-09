@@ -9,7 +9,6 @@ nsb/images/navright.png
 nsb/images/icons-36-white.png
 nsb/images/196.png
 nsb/images/ajax-loader.gif
-nsb/images/SplashScreen.png
 nsb/hfunc.js
 nsb/images/navleft.png
 images/washing_icon.jpg
@@ -31,7 +30,7 @@ nsb/fastclick.js
 nsb/images/navrightblack.png
 images/washing_tool.jpg
 images/bathing1_icon.jpg
-images/ear_icon.jpg
+images/logo.jpg
 nsb/images/navbuttonblack.png
 nsb/images/navbutton.png
 nsb/css/style.css
@@ -41,6 +40,7 @@ nsb/messages.js
 nsb/images/titlebarIcons.png
 nsb/images/navbuttonblue.png
 images/deo_tool.jpg
+images/ear_icon.jpg
 nsb/images/navlinkright.png
 nsb/images/icons-18-white.png
 nsb/images/LauncherIcon57.png
@@ -53,4 +53,4 @@ images/brushing_icon.jpg
 NETWORK:
 *
 
-# buildtime: 1394331653.01
+# buildtime: 1394334990.06
