@@ -145,7 +145,7 @@ function form1show() {
 Image1Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\bathing1.jpg") {
     Label1.textContent = BathText;
-    Video1.src = "images\\bath.mp4";
+    Video1.src = "images\\bath.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -155,7 +155,7 @@ return savethefunction_rvar; }
 Image2Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\brushing.jpg") {
     Label1.textContent = BrushingText;
-    Video1.src = "video\\brushing.mp4";
+    Video1.src = "video\\Brushing.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -165,7 +165,7 @@ return savethefunction_rvar; }
 Image3Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\shaving.jpg") {
     Label1.textContent = ShavingText;
-    Video1.src = "video\\shaving.mp4";
+    Video1.src = "video\\shaving.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -175,7 +175,7 @@ return savethefunction_rvar; }
 Image4Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\nail.jpg") {
     Label1.textContent = NailText;
-    Video1.src = "video\\nail.mp4";
+    Video1.src = "video\\nail.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -185,7 +185,7 @@ return savethefunction_rvar; }
 Image5Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\washing.jpg") {
     Label1.textContent = WashingText;
-    Video1.src = "video\\washing.mp4";
+    Video1.src = "video\\washing.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -195,7 +195,7 @@ return savethefunction_rvar; }
 Image6Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\ear.jpg") {
     Label1.textContent = EarText;
-    Video1.src = "video\\ear.mp4";
+    Video1.src = "video\\ear.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -205,7 +205,7 @@ return savethefunction_rvar; }
 Image7Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\deo.jpg") {
     Label1.textContent = DeoText;
-    Video1.src = "video\\deo.mp4";
+    Video1.src = "video\\deo.3gp";
    ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -215,7 +215,7 @@ return savethefunction_rvar; }
 Image8Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\navel.jpg") {
     Label1.textContent = NavelText;
-    Video1.src = "video\\navel.mp4";
+    Video1.src = "video\\navel.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
@@ -225,7 +225,7 @@ return savethefunction_rvar; }
 Image9Copy.onclick = function() { savethefunction_rvar="";
   if(Image10.src == "images\\hair.jpg") {
     Label1.textContent = HairText;
-    Video1.src = "video\\hair.mp4";
+    Video1.src = "video\\hair.3gp";
     ChangeForm2();
  } else {
     TitleBar2.onclick("home");
