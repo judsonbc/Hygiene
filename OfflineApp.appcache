@@ -1,9 +1,11 @@
 CACHE MANIFEST
 
 CACHE:
-images/shaving_tool.jpg
 images/navel_icon.jpg
 images/hair_icon.jpg
+jqxcore.js
+images/shampoo.jpg
+jqxdragdrop.js
 nsb/images/icons-36-white.png
 nsb/images/ajax-loader.gif
 nsb/hfunc.js
@@ -11,27 +13,28 @@ images/washing_icon.jpg
 images/nail_icon.jpg
 images/ear_tool.jpg
 nsb/jquery.mobile.js
-nsb/images/icons-18-black.png
 images/face.jpg
 nsb/jquery.mobile.css
 nsb/jquery.js
 nsb/complexfunctions.js
 images/deo_icon.jpg
-nsb/images/icons-36-black.png
 images/logo.jpg
 images/nail_tool.jpg
-images/bathing_tool.jpg
+images/towel.jpg
 nsb/fastclick.js
-images/washing_tool.jpg
+images/soap.jpg
+nsb/images/icons-36-black.png
 images/bathing1_icon.jpg
+styles/jqx.base.css
 images/ear_icon.jpg
 images/bathing1.jpg
 nsb/messages.js
+images/deo_tool.jpg
 nsb/images/196.png
 nsb/images/icons-18-white.png
 nsb/images/LauncherIcon57.png
 nsb/nsbstyle.css
-images/brushing_tool.jpg
+nsb/images/icons-18-black.png
 images/brushing_icon.jpg
 https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css
 https://jqwidgets.com/public/jqwidgets/jqxcore.js
@@ -40,4 +43,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1395645716.36
+# buildtime: 1395654421.27
