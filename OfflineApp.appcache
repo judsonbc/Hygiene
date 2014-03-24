@@ -5,7 +5,6 @@ images/navel_icon.jpg
 images/hair_icon.jpg
 jqxcore.js
 images/shampoo.jpg
-jqxgauge.js
 jqxdragdrop.js
 nsb/images/icons-36-white.png
 nsb/images/ajax-loader.gif
@@ -16,14 +15,12 @@ images/ear_tool.jpg
 nsb/jquery.mobile.js
 images/face.jpg
 nsb/jquery.mobile.css
-styles/jqx.classic.css
 nsb/jquery.js
 nsb/complexfunctions.js
 images/deo_icon.jpg
 images/logo.jpg
 images/nail_tool.jpg
 images/towel.jpg
-jqxchart.js
 nsb/fastclick.js
 images/soap.jpg
 nsb/images/icons-36-black.png
@@ -31,6 +28,7 @@ images/bathing1_icon.jpg
 styles/jqx.base.css
 images/ear_icon.jpg
 images/bathing1.jpg
+nsb/css/style.css
 nsb/messages.js
 images/deo_tool.jpg
 nsb/images/196.png
@@ -46,4 +44,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1395657020.25
+# buildtime: 1395658428.31

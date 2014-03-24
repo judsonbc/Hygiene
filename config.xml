@@ -3,13 +3,13 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.HumanHygiene"
-version = "1.0.16">
+version = "1.0.17">
 
 <name>ProperHygiene</name>
 <description></description>
 <preference name="phonegap-version" value="3.1.0" />
 
-<preference name="splash-screen-duration" value="500" />
+<preference name="splash-screen-duration" value="2000" />
 <gap:splash src="images/logo.jpg"/>
 
 <!-- Icons: Expand this section with sizes required for platforms you are targeting.-->
