@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <title>ProperHygiene</title>
 <meta name="generator" content="NSB/AppStudio 3.3.0.1$" />
-<meta name="date" content="2014-03-24 17:47:01.585000" />
-<meta name="version" content="1.0.15" />
+<meta name="date" content="2014-03-24 18:30:20.740000" />
+<meta name="version" content="1.0.16" />
 <meta name="viewport" content="width=device-width minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="YES" />
 <meta name="mobile-web-app-capable" content="yes" />
@@ -23,8 +23,11 @@
 <script src="nsb/jquery.js"></script>
 <script src="nsb/jquery.mobile.js"></script>
 <link href="nsb/jquery.mobile.css" rel="stylesheet">
-<script src="jqxcore.js"></script>
 <link href="styles/jqx.base.css" rel="stylesheet">
+<link href="styles/jqx.classic.css" rel="stylesheet">
+<script src="jqxcore.js"></script>
+<script src="jqxchart.js"></script>
+<script src="jqxgauge.js"></script>
 <script src="jqxdragdrop.js"></script>
 <script src="https://jqwidgets.com/public/jqwidgets/jqxcore.js"></script>
 <link href="https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css" rel="stylesheet">
@@ -33,50 +36,52 @@
 
 
 <style type="text/css">
-#Image1 {position:absolute; left:40px; right:auto; top:128px; bottom:auto; height:72px; width:72px}
-#Image2 {position:absolute; left:120px; right:auto; top:128px; bottom:auto; height:72px; width:72px}
-#Image3 {position:absolute; left:200px; right:auto; top:128px; bottom:auto; height:72px; width:72px}
-#Image4 {position:absolute; left:40px; right:auto; top:208px; bottom:auto; height:72px; width:72px}
-#Image5 {position:absolute; left:120px; right:auto; top:208px; bottom:auto; height:72px; width:72px}
-#Image6 {position:absolute; left:200px; right:auto; top:208px; bottom:auto; height:72px; width:72px}
-#Image7 {position:absolute; left:40px; right:auto; top:288px; bottom:auto; height:72px; width:72px}
-#Image8 {position:absolute; left:120px; right:auto; top:288px; bottom:auto; height:72px; width:72px}
-#Image9 {position:absolute; left:200px; right:auto; top:288px; bottom:auto; height:72px; width:72px}
-#Label2 {position:absolute; left:32px; right:auto; top:104px; bottom:auto; height:20px; width:248px}
+#Image1 {position:absolute; left:40px; right:auto; top:192px; bottom:auto; height:72px; width:72px}
+#Image2 {position:absolute; left:120px; right:auto; top:192px; bottom:auto; height:72px; width:72px}
+#Image3 {position:absolute; left:200px; right:auto; top:192px; bottom:auto; height:72px; width:72px}
+#Image4 {position:absolute; left:40px; right:auto; top:272px; bottom:auto; height:72px; width:72px}
+#Image5 {position:absolute; left:120px; right:auto; top:272px; bottom:auto; height:72px; width:72px}
+#Image6 {position:absolute; left:200px; right:auto; top:272px; bottom:auto; height:72px; width:72px}
+#Image7 {position:absolute; left:40px; right:auto; top:352px; bottom:auto; height:72px; width:72px}
+#Image8 {position:absolute; left:120px; right:auto; top:352px; bottom:auto; height:72px; width:72px}
+#Image9 {position:absolute; left:200px; right:auto; top:352px; bottom:auto; height:72px; width:72px}
 #NavBar2 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
+#RadialGauge2_wrapper {position:absolute; left:40px; top:32px; height:152px; width:232px}
+#RadialGauge2 {position:relative; left:0px; top:0px; height:100%; width:100%}
 #Label5 {position:absolute; left:0px; right:auto; top:0px; bottom:auto; height:32px; width:320px}
+#Label7 {position:absolute; left:120px; right:auto; top:168px; bottom:auto; height:20px; width:112px}
 #Image10 {position:absolute; left:40px; right:auto; top:72px; bottom:auto; height:184px; width:232px}
+#RadialGauge1_wrapper {position:absolute; left:144px; top:8px; height:120px; width:168px}
+#RadialGauge1 {position:relative; left:0px; top:0px; height:100%; width:100%}
 #Image1Copy {position:absolute; left:40px; right:auto; top:264px; bottom:auto; height:72px; width:72px}
 #Image2Copy {position:absolute; left:120px; right:auto; top:264px; bottom:auto; height:72px; width:72px}
 #Image3Copy {position:absolute; left:200px; right:auto; top:264px; bottom:auto; height:72px; width:72px}
 #Image4Copy {position:absolute; left:40px; right:auto; top:344px; bottom:auto; height:72px; width:72px}
 #Image5Copy {position:absolute; left:120px; right:auto; top:344px; bottom:auto; height:72px; width:72px}
 #Image6Copy {position:absolute; left:200px; right:auto; top:344px; bottom:auto; height:72px; width:72px}
-#ProgressBar1 {position:absolute; left:8px; right:10px; top:40px; bottom:auto; height:20px; width:304px}
 #Label3 {position:absolute; left:16px; right:auto; top:232px; bottom:auto; height:20px; width:280px}
-#Label4 {position:absolute; left:96px; right:auto; top:43px; bottom:auto; height:20px; width:112px}
 #TitleBar2 {position:absolute; left:0px; right:auto; top:424px; bottom:auto; height:40px; width:320px}
-#Label5Copy {position:absolute; left:10px; right:auto; top:10px; bottom:auto; height:32px; width:320px}
 #DragDrop1 {position:absolute; left:283px; right:auto; top:295px; bottom:auto; height:4px; width:4px}
 #DragDrop2 {position:absolute; left:287px; right:auto; top:324px; bottom:auto; height:4px; width:4px}
 #DragDrop3 {position:absolute; left:294px; right:auto; top:345px; bottom:auto; height:4px; width:4px}
-#DragDrop4 {position:absolute; left:311px; right:auto; top:310px; bottom:auto; height:4px; width:4px}
 #DragDrop5 {position:absolute; left:289px; right:auto; top:340px; bottom:auto; height:4px; width:4px}
+#DragDrop4 {position:absolute; left:311px; right:auto; top:310px; bottom:auto; height:4px; width:4px}
 #DragDrop6 {position:absolute; left:292px; right:auto; top:360px; bottom:auto; height:4px; width:4px}
+#Label6 {position:absolute; left:192px; right:auto; top:112px; bottom:auto; height:20px; width:96px}
 body * {font-family:helvetica}
 </style>
 </head>
 <body style="margin:0px;">
-<script src="21.js"></script>
+<script src="25.js"></script>
 <div data-role="page" id="Page_HumanHygiene" data-theme="c" style="">
 <form id="Form1" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:green; top:0px; left:0px; width:320px; ">
-<script src="23.js"></script>
+<script src="27.js"></script>
 </form>
 <form id="Form2" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; background:green; top:0px; left:0px; width:320px; ">
-<script src="25.js"></script>
+<script src="29.js"></script>
 </form>
 </div>
-<script src="27.js"></script>
+<script src="31.js"></script>
 
 </body>
 </html>
