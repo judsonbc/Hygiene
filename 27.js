@@ -20,5 +20,5 @@ Form2.innerHTML=[  "<div id='Image10' ><img src='images/bathing1.jpg'  height=10
   "<label id='TaskTitle' class='graytitle' style='text-align:center;  font-size:14px; font-family:helvetica; font-style:normal; font-weight:bold; color:black; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >Label</label>",
   "<canvas id='PictureBox2' height='56' width='72' name='PictureBox2_img'  style='background-color:white; border-style:none; '></canvas>",
   "<label id='Label7' class='graytitle' style='text-align:center;  font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:black; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >Moves</label>",
-  "<label id='Moves' class='graytitle' style='text-align:center;  font-size:30px; font-family:helvetica; font-style:normal; font-weight:bold; color:black; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >15</label>",
+  "<label id='Moves' class='graytitle' style='text-align:center;  font-size:30px; font-family:helvetica; font-style:normal; font-weight:bold; color:black; background-color:transparent; border-style:;border-color:transparent;border-width:1px; ' >12</label>",
   ].join('');

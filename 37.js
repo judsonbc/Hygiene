@@ -49,6 +49,7 @@ window.addEventListener('load', function() {
   NSB.TitleBar_init('TitleBar4','setup','info');
   NSB.addProperties(TitleBar4);
   NSB.addProperties(Image9);
+NSB.addProperties(Audio1);
   Form1.style.display = 'none';
 }, false);
 Form1.onsubmit=function(event){window.event.stopPropagation();window.event.preventDefault()};
@@ -398,7 +399,7 @@ function InitVar() { savethefunction_rvar="";
     Scor[2][5] = -5;
     Scor[2][6] = 15;
 
-    Scor[3][1] = -5; //20
+    Scor[3][1] = -5; //10
     Scor[3][2] = 10;
     Scor[3][3] = -5;
     Scor[3][4] = -5;
@@ -449,15 +450,15 @@ function InitVar() { savethefunction_rvar="";
 
     HygieneScore = 0;
 
-    VidSource[1] = "/assets/www/takingabath.mp4";
-    VidSource[2] = "/assets/www/brushing.mp4";
-    VidSource[3] = "/assets/www/clippingtoenails.mp4";
-    VidSource[4] = "/assets/www/clippinghands.mp4";
-    VidSource[5] = "/assets/www/washinghands.mp4";
-    VidSource[6] = "/assets/www/cleaningear.mp4";
-    VidSource[8] = "/assets/www/cleaningnavel.mp4";
-    VidSource[7] = "/assets/www/combinghair.mp4";
-    VidSource[9] = "/assets/www/nailclipping.mp4";
+    VidSource[1] = "/storage/emulated/0/hygiene/takingabath.mp4";
+    VidSource[2] = "/storage/emulated/0/hygiene/brushing.mp4";
+    VidSource[3] = "/storage/emulated/0/hygiene/clippingtoenails.mp4";
+    VidSource[4] = "/storage/emulated/0/hygiene/clippinghands.mp4";
+    VidSource[5] = "/storage/emulated/0/hygiene/washinghands.mp4";
+    VidSource[6] = "/storage/emulated/0/hygiene/cleaningear.mp4";
+    VidSource[8] = "/storage/emulated/0/hygiene/cleaningnavel.mp4";
+    VidSource[7] = "/storage/emulated/0/hygiene/combinghair.mp4";
+    VidSource[9] = "/storage/emulated/0/hygiene/nailclipping.mp4";
 
 return savethefunction_rvar; }
 
@@ -517,8 +518,8 @@ DragDrop1.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][1];
     Scor[Whatw][1] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
     Label11.textContent = HygieneScore;
     Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -558,8 +559,8 @@ DragDrop2.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][2];
     Scor[Whatw][2] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
     Label11.textContent = HygieneScore;
     Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -598,8 +599,8 @@ DragDrop3.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][3];
     Scor[Whatw][3] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
     Label11.textContent = HygieneScore;
     Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -638,8 +639,8 @@ DragDrop4.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][4];
     Scor[Whatw][4] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
      Label11.textContent = HygieneScore;
    Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -678,8 +679,8 @@ DragDrop5.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][5];
     Scor[Whatw][5] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
     Label11.textContent = HygieneScore;
     Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -718,8 +719,8 @@ DragDrop6.onTargetDrop = function() { savethefunction_rvar="";
     }
     HygieneScore = HygieneScore  + Scor[Whatw][6];
     Scor[Whatw][6] = 0;
-    HLevel.textContent = HygieneScore  +  " / 160";
-    HLevel1.textContent = HygieneScore  +  " / 160";
+    HLevel.textContent = HygieneScore  +  " / 130";
+    HLevel1.textContent = HygieneScore  +  " / 130";
      Label11.textContent = HygieneScore;
    Moves.textContent  = Moves.textContent - 1;
     Moves1.textContent  = Moves.textContent;
@@ -899,14 +900,6 @@ window.addEventListener('load', function() {
   NSB.TitleBar_init('TitleBar7','home','');
   NSB.addProperties(TitleBar7);
 NSB.addProperties(Video1);
-NSB.addProperties(Video2);
-NSB.addProperties(Video3);
-NSB.addProperties(Video4);
-NSB.addProperties(Video5);
-NSB.addProperties(Video6);
-NSB.addProperties(Video7);
-NSB.addProperties(Video8);
-NSB.addProperties(Video9);
   Form6.style.display = 'none';
 }, false);
 Form6.onsubmit=function(event){window.event.stopPropagation();window.event.preventDefault()};
