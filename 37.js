@@ -457,8 +457,8 @@ function InitVar() { savethefunction_rvar="";
     VidSource[5] = "/sdcard/hygiene/washinghands.mp4";
     VidSource[6] = "/sdcard/hygiene/cleaningear.mp4";
     VidSource[8] = "/sdcard/hygiene/cleaningnavel.mp4";
-    VidSource[7] = "/sdcard/hygiene/combinghair.mp4";
-    VidSource[9] = "/sdcard/hygiene/nailclipping.mp4";
+    VidSource[7] = "/storage/emulated/legacy/hygiene/combinghair.mp4";
+    VidSource[9] = "/storage/emulated/0/hygiene/nailclipping.mp4";
 
 return savethefunction_rvar; }
 
