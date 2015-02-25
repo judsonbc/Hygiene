@@ -1,6 +1,7 @@
 CACHE MANIFEST
 
 CACHE:
+images/bg.mp3
 images/navel_icon.jpg
 jqxcore.js
 images/nail_icon.jpg
@@ -46,7 +47,6 @@ nsb/images/navbuttonblue.png
 nsb/images/navlinkright.png
 nsb/images/icons-18-white.png
 nsb/images/LauncherIcon57.png
-storage/emulated/legacy/hygiene/bg.mp3
 images/bathing1.jpg
 nsb/images/icons-18-black.png
 images/brushing_icon.jpg
@@ -57,4 +57,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1424858488.84
+# buildtime: 1424859214.79
