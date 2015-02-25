@@ -456,7 +456,7 @@ function InitVar() { savethefunction_rvar="";
     VidSource[4] = "/sdcard/hygiene/clippinghands.mp4";
     VidSource[5] = "/sdcard/hygiene/washinghands.mp4";
     VidSource[6] = "/sdcard/hygiene/cleaningear.mp4";
-    VidSource[8] = "/sdcard/hygiene/cleaningnavel.mp4";
+    VidSource[8] = "/storage/emulated/0/hygiene/cleaningnavel.mp4";
     VidSource[7] = "/storage/emulated/legacy/hygiene/combinghair.mp4";
     VidSource[9] = "/storage/emulated/0/hygiene/nailclipping.mp4";
 
@@ -901,6 +901,14 @@ window.addEventListener('load', function() {
   NSB.TitleBar_init('TitleBar7','home','');
   NSB.addProperties(TitleBar7);
 NSB.addProperties(Video1);
+NSB.addProperties(Video2);
+NSB.addProperties(Video3);
+NSB.addProperties(Video4);
+NSB.addProperties(Video5);
+NSB.addProperties(Video6);
+NSB.addProperties(Video7);
+NSB.addProperties(Video8);
+NSB.addProperties(Video9);
   Form6.style.display = 'none';
 }, false);
 Form6.onsubmit=function(event){window.event.stopPropagation();window.event.preventDefault()};
