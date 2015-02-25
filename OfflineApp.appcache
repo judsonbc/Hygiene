@@ -24,10 +24,10 @@ nsb/jquery.mobile.css
 nsb/jquery.js
 nsb/complexfunctions.js
 nsb/iscroll.js
-/sdcard/hygiene/bg.mp3
 images/deo_icon.jpg
 nsb/images/navleftblack.png
 images/nail_tool.jpg
+/mnt/sdcard/hygiene/bg.mp3
 images/towel.jpg
 nsb/fastclick.js
 images/soap.jpg
@@ -57,4 +57,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1424869448.73
+# buildtime: 1424870316.97
