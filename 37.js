@@ -742,6 +742,7 @@ function CheckPerfect() { savethefunction_rvar="";
   if(Perfect == 0) {
     Video1.src = VidSource[Whatw];
     Video1.play();
+    Video1.play();
 
 
  //hide form2 and display form6

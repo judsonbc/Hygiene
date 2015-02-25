@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.nsbasic.HumanHygiene"
-version = "1.0.44">
+version = "1.0.45">
 
 <name>ProperHygiene</name>
 <description></description>
