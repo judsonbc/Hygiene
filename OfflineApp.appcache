@@ -9,11 +9,12 @@ nsb/nsbstyle.css
 images/shampoo.jpg
 jqxdragdrop.js
 nsb/images/navright.png
-/storage/emulated/0/hygiene/bg.mp3
+nsb/images/icons-36-white.png
 nsb/images/196.png
 nsb/images/ajax-loader.gif
 nsb/hfunc.js
 nsb/images/navleft.png
+/storage/emulated/legacy/hygiene/bg.mp3
 images/washing_icon.jpg
 nsb/images/navrightblack.png
 nsb/images/navlinkleft.png
@@ -38,7 +39,6 @@ nsb/images/navbuttonblack.png
 nsb/images/navbutton.png
 nsb/css/style.css
 nsb/images/navlinkrightblack.png
-nsb/images/icons-36-white.png
 nsb/messages.js
 nsb/images/titlebarIcons.png
 images/ear_icon.jpg
@@ -57,4 +57,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1424856838.71
+# buildtime: 1424857960.64
