@@ -1,12 +1,11 @@
 CACHE MANIFEST
 
 CACHE:
-images/bg.mp3
 images/navel_icon.jpg
 jqxcore.js
 images/nail_icon.jpg
 nsb/images/navlinkleftblack.png
-nsb/images/navbutton.png
+nsb/nsbstyle.css
 images/shampoo.jpg
 jqxdragdrop.js
 nsb/images/navright.png
@@ -15,22 +14,18 @@ nsb/images/196.png
 nsb/images/ajax-loader.gif
 nsb/hfunc.js
 nsb/images/navleft.png
-cleaningnavel.mp4
 images/washing_icon.jpg
 nsb/images/navrightblack.png
 nsb/images/navlinkleft.png
 images/ear_tool.jpg
 nsb/jquery.mobile.js
-cleaningear.mp4
 images/face.jpg
 nsb/jquery.mobile.css
-nsb/nsbstyle.css
-brushing.mp4
 nsb/jquery.js
 nsb/complexfunctions.js
 nsb/iscroll.js
+/sdcard/hygiene/bg.mp3
 images/deo_icon.jpg
-washinghands.mp4
 nsb/images/navleftblack.png
 images/nail_tool.jpg
 images/towel.jpg
@@ -41,7 +36,7 @@ images/bathing1_icon.jpg
 styles/jqx.base.css
 images/logo.jpg
 nsb/images/navbuttonblack.png
-combinghair.mp4
+nsb/images/navbutton.png
 nsb/css/style.css
 nsb/images/navlinkrightblack.png
 nsb/messages.js
@@ -49,15 +44,12 @@ nsb/images/titlebarIcons.png
 images/ear_icon.jpg
 images/deo_tool.jpg
 nsb/images/navbuttonblue.png
-clippingtoenails.mp4
 nsb/images/navlinkright.png
 nsb/images/icons-18-white.png
 nsb/images/LauncherIcon57.png
 images/bathing1.jpg
 nsb/images/icons-18-black.png
 images/brushing_icon.jpg
-clippinghands.mp4
-takingabath.mp4
 https://jqwidgets.com/public/jqwidgets/styles/jqx.base.css
 https://jqwidgets.com/public/jqwidgets/jqxcore.js
 https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
@@ -65,4 +57,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1424867222.58
+# buildtime: 1424869448.73
