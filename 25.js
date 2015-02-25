@@ -17,5 +17,5 @@ Form1.innerHTML=[  "<div id='Image1' ><img src='images/bathing1_icon.jpg'  heigh
   "<label id='Label9' class='graytitle' style='text-align:center;  font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:red; background-color:white; border-style:;border-color:transparent;border-width:1px; ' >Select Task</label>",
   NSB.TitleBar("TitleBar4", "Main", "leftnav", "rightnav", "setup", "info", " style= class=transparent"),
   "<div id='Image9' ><img src='' display:none; height=100% width=100% name='Image9_img' style='display:none;' usemap='Image9_map'/></div>",
-  "<audio id='Audio1' style='' src='/mnt/sdcard/hygiene/super.wav'  autoplay controls loop></audio>",
+  "<audio id='Audio1' style='' src='/mnt/sdcard/hygiene/super.wav' hidden=\'true\'; autoplay controls loop></audio>",
   ].join('');
