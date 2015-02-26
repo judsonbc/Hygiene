@@ -449,15 +449,15 @@ function InitVar() { savethefunction_rvar="";
 
     HygieneScore = 0;
 
-    VidSource[1] = "takingabath.mp4";
-    VidSource[2] = "brushing.mp4";
-    VidSource[3] = "clippingtoenails.mp4";
-    VidSource[4] = "clippinghands.mp4";
-    VidSource[5] = "washinghands.mp4";
-    VidSource[6] = "cleaningear.mp4";
-    VidSource[8] = "cleaningnavel.mp4";
-    VidSource[7] = "combinghair.mp4";
-    VidSource[9] = "nailclipping.mp4";
+    VidSource[1] = "/assets/www/takingabath.mp4";
+    VidSource[2] = "/assets/www/brushing.mp4";
+    VidSource[3] = "/assets/www/clippingtoenails.mp4";
+    VidSource[4] = "/assets/www/clippinghands.mp4";
+    VidSource[5] = "/assets/www/washinghands.mp4";
+    VidSource[6] = "/assets/www/cleaningear.mp4";
+    VidSource[8] = "/assets/www/cleaningnavel.mp4";
+    VidSource[7] = "/assets/www/combinghair.mp4";
+    VidSource[9] = "/assets/www/nailclipping.mp4";
 
 return savethefunction_rvar; }
 
