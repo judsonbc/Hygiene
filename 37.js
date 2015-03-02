@@ -276,6 +276,7 @@ function form2show() {
 }
 
 Form1.onshow = function() { savethefunction_rvar="";
+  Audio1.src = "/mnt/sdcard/hygiene/sound.wav";
   Audio1.play();
 
 return savethefunction_rvar; }
@@ -747,7 +748,7 @@ function CheckPerfect() { savethefunction_rvar="";
   if(Perfect == 0) {
     Video1.src = VidSource[Whatw];
     Video1.play();
-    Video1.play();
+
 
 
  //hide form2 and display form6
