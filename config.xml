@@ -7,10 +7,11 @@ version = "1.0.55">
 
 <name>ProperHygiene</name>
 <description></description>
-<preference name="phonegap-version" value="3.1.0" />
+<preference name="phonegap-version" value="3.6.3" />
 
 <preference name="splash-screen-duration" value="2000" />
 <gap:splash src="images/logo.jpg"/>
+<gap:plugin name="org.apache.cordova.media" version="0.2.13" />
 
 <!-- Icons: Expand this section with sizes required for platforms you are targeting.-->
 <icon src='icons/ios/icon.png' gap:platform='ios' width='57' height='57' />

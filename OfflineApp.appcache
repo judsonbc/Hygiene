@@ -19,7 +19,6 @@ nsb/images/navrightblack.png
 nsb/images/navlinkleft.png
 images/ear_tool.jpg
 nsb/jquery.mobile.js
-/mnt/sdcard/hygiene/super.wav
 images/face.jpg
 nsb/jquery.mobile.css
 nsb/jquery.js
@@ -28,6 +27,7 @@ nsb/iscroll.js
 images/deo_icon.jpg
 nsb/images/navleftblack.png
 images/nail_tool.jpg
+/mnt/sdcard/hygiene/bg.mp3
 images/towel.jpg
 nsb/fastclick.js
 images/soap.jpg
@@ -57,4 +57,4 @@ https://jqwidgets.com/public/jqwidgets/jqxdragdrop.js
 NETWORK:
 *
 
-# buildtime: 1424871440.94
+# buildtime: 1425281969.36

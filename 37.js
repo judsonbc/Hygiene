@@ -275,6 +275,11 @@ function form2show() {
   Form2.style.webkitTransform="translateX(0px)";
 }
 
+Form1.onshow = function() { savethefunction_rvar="";
+  Audio1.play();
+
+return savethefunction_rvar; }
+
 window.addEventListener('load', function() {
   Form2.style.display = 'block';
   NSB.addProperties(Image10);
