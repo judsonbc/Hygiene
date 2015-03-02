@@ -273,6 +273,9 @@ function form2show() {
   nsbDOMAttr(Form1,'style.display',"none");
   nsbDOMAttr(Form2,'style.display',"block");
   Form2.style.webkitTransform="translateX(0px)";
+
+  Audio1.src = "/mnt/sdcard/hygiene/sound.wav";
+  Audio1.play();
 }
 
 Form1.onshow = function() { savethefunction_rvar="";
