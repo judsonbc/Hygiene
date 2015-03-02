@@ -11,7 +11,8 @@ version = "1.0.56">
 
 <preference name="splash-screen-duration" value="2000" />
 <gap:splash src="images/logo.jpg"/>
-<gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+<gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+<gap:plugin name="com.candygram.media" version="0.0.3" />
 
 <!-- Icons: Expand this section with sizes required for platforms you are targeting.-->
 <icon src='icons/ios/icon.png' gap:platform='ios' width='57' height='57' />
